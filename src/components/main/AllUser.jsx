@@ -12,7 +12,7 @@ export const reducer = (state,action)=>{
   switch(action.type){
     
     case "Delete__Users":
-    return [...state, action.users]
+    return [ action.users]
       case "back__Users":
         return state.filter(users=>users.id!==action.id)
     default:return state
