@@ -1,0 +1,85 @@
+.all {
+  width: 100%;
+  height: 1700px;
+  margin: 0 auto;
+  background: #81B622;
+}
+
+.cards__parent {
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  margin: 10px 0;
+  background-color: #ECF87F;
+}
+
+.body {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tit {
+  width: 100%;
+  min-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.email {
+  width: 100%;
+  min-height: 50px;
+  font-size: 21px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 20px 50px;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #fff;
+  background: aqua;
+  border-radius: 14px;
+  border: none;
+}
+
+.btn:active {
+  background: #ECF87F;
+}
+/*# sourceMappingURL=User.module.css.map */
